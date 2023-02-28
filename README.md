@@ -69,9 +69,14 @@ gradlew bundle ```
 Открываем код модуля загрузчик, ищем строку
 
 Загрузчик PHP
-```$updater = new GitHubUpdater('TsSaltan', 'DevelNext-Updater');```
+```
+$updater = new GitHubUpdater('TsSaltan', 'DevelNext-Updater');
+```
 
-```$updater = new GitHubUpdater('TsSaltan', 'DevelNext-Updater');```
+```
+$updater = new GitHubUpdater('TsSaltan', 'DevelNext-Updater');
+```
+
 И меняем имя пользователя и название репозитория на своё. Для работы демо версии можно оставить эти значения.
 
 Меняем внешний вид формы UpdateForm под себя. Собираем проект в jar приложение. На выходе получаем файл Updater.jar
